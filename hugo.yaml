@@ -1,0 +1,64 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Diego Coimbra
+theme: ["PaperMod"]
+
+taxonomies:
+  tag: "tags"
+
+params:
+  homeInfoParams:
+    Title: Oi, Eu sou o Diego! 👨🏻‍💻
+    Content: Bem vindos ao meu blog, onde eu compartilho minha jornada como estudante de ciência da computação.
+  
+  socialIcons:
+  - name: github
+    url: 'https://github.com/diegoaccoimbra'
+  - name: email
+    url: 'mailto:diegoaccoimbra@gmail.com'
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon-16x16.png"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: about
+      name: Sobre mim
+      url: /about/
+      weight: 10
+    - identifier: archive
+      name: Projetos
+      url: /archive/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Buscar
+      url: /search/
+      weight: 40
+
+# For search: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
