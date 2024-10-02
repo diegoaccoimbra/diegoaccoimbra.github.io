@@ -3,8 +3,8 @@ title: "Sobre mim"
 author: "Diego"
 date: 2024-09-15T17:36:07+12:00
 
-tags: ["exemple"]
-showToc: true
+tags: ["Diego"]
+showToc: false
 TocOpen: false
 draft: false
 hidemeta: false
