@@ -1,7 +1,7 @@
 +++
 title = 'Minha primeira postagem'
 date = 2024-10-01T17:07:52-03:00
-draft = true
+draft = false
 author = "Diego"
 showToc = true
 TocOpen = false

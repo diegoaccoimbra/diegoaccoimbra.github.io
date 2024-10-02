@@ -1,7 +1,7 @@
 +++
 title = 'Site responsivo com poema'
 date = 2024-10-02T09:59:41-03:00
-draft = true
+draft = false
 tags = ['HTML', 'CSS']
 +++
 
