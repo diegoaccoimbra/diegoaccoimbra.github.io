@@ -2,7 +2,9 @@
 title = 'Site responsivo com poema'
 date = 2024-10-02T09:59:41-03:00
 draft = false
+ShowBreadCrumbs = true
 tags = ['HTML', 'CSS']
+author = "Diego"
 +++
 
 Projeto de um site responsivo com o poema "O tempo passa? Não passa" do poeta brasileiro Carlos Drummond de Andrade utilizando flexbox e outras propriedades de CSS.
